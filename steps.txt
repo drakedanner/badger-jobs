@@ -1,0 +1,16 @@
+1. python -m venv venv
+    - do this in the root folder of the python part of your project
+2. source venv/bin/activate
+3. install depdendecies
+    a. pip install -r requirements.txt
+    - if you already have a running project
+    b. pip install <dependencies you know you want>
+    - if you are starting fresh or adding something new
+4. creating .gitignore
+    a. add .env (NEVER EVER SKIP THIS)
+5. copy example.env and 
+    b. add any secret fields you need
+    - format is KEY_TITLE="VALUE"
+        - keep the quotations, no spaces, can only be raw text 
+6. setting up python-dotenv 
+    - https://pypi.org/project/python-dotenv/
