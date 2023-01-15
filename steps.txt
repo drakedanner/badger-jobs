@@ -8,7 +8,7 @@
     - if you are starting fresh or adding something new
 4. creating .gitignore
     a. add .env (NEVER EVER SKIP THIS)
-5. copy example.env and 
+5. copy example.env and rename it to .env
     b. add any secret fields you need
     - format is KEY_TITLE="VALUE"
         - keep the quotations, no spaces, can only be raw text 
