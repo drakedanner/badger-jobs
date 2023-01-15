@@ -110,7 +110,7 @@ def main():
     # this is where you would add retries if it failed, etc.
     tx_receipt = w3.eth.wait_for_transaction_receipt(send)
 
-    print('tx_receipt', tx_receipt['transactionHash'])
+    print('tx_receipt', tx_receipt)
 
 if __name__ == '__main__':
     main()
